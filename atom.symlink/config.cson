@@ -1,36 +1,28 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    invisibles: {}
-    fontSize: 15
-    softWrapAtPreferredLineLength: true
-  core:
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-    ]
+  "exception-reporting":
+    userId: "89f8dc4e-93de-fd53-ff9c-5d5fd94bca01"
+  "release-notes":
+    viewedVersion: "0.59.0"
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
+  metrics:
+    userId: "8588ddec5c35029d556b88449580eef038699a7d"
+  editor:
+    invisibles: {}
+  core:
+    themes: [
+      "atom-light-ui"
+      "base16-tomorrow-light-theme"
+    ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+  "notational-velocity":
+    directory: "/Users/victor/notes"
+  react: {}
+  nvatom:
+    directory: "/Users/victor/Google Drive/notes"
+  emmet: {}
+  "status-bar": {}

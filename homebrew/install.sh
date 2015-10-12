@@ -2,8 +2,7 @@
 #
 # Homebrew
 #
-# This installs some of the common dependencies needed (or at least desired)
-# using Homebrew.
+# This installs some of the common dependencies and brews needed
 
 # Check for Homebrew
 if test ! $(which brew)
@@ -18,10 +17,27 @@ then
   then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
   fi
-  
+
 fi
 
-# Install homebrew packages
-brew install grc coreutils spark
+# Update Homebrew, formulae, and packages
+
+brew update
+brew upgrade
+
+# Install packages
+
+apps=(
+    cask
+    grc
+    coreutils
+    spark
+    git
+    node
+    imagemagick
+    hub
+)
+
+brew install "${apps[@]}"
 
 exit 0

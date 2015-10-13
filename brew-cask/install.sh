@@ -23,6 +23,7 @@ apps=(
   iterm2
   google-chrome-canary
   virtualbox
+  vagrant
   vlc
 )
 

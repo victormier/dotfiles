@@ -36,6 +36,7 @@ apps=(
     node
     imagemagick
     hub
+    ansible
 )
 
 brew install "${apps[@]}"

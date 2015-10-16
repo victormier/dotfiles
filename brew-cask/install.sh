@@ -25,6 +25,7 @@ apps=(
   virtualbox
   vagrant
   vlc
+  screenhero
 )
 
 brew cask install "${apps[@]}"

@@ -37,6 +37,7 @@ apps=(
     imagemagick
     hub
     ansible
+    postgres
 )
 
 brew install "${apps[@]}"

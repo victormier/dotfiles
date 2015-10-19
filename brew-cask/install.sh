@@ -26,6 +26,7 @@ apps=(
   vagrant
   vlc
   screenhero
+  bittorrent
 )
 
 brew cask install "${apps[@]}"

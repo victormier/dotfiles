@@ -39,6 +39,7 @@ apps=(
     ansible
     postgres
     heroku
+    redis
 )
 
 brew install "${apps[@]}"

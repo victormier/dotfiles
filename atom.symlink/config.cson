@@ -9,6 +9,7 @@
     userId: "8588ddec5c35029d556b88449580eef038699a7d"
   editor:
     invisibles: {}
+    fontSize: 15
   core:
     themes: [
       "atom-light-ui"
@@ -23,6 +24,10 @@
     directory: "/Users/victor/notes"
   react: {}
   nvatom:
-    directory: "/Users/victor/Google Drive/notes"
+    directory: "/Users/victor/GDrive/notes"
   emmet: {}
   "status-bar": {}
+  "highlight-line":
+    enableBackgroundColor: false
+  term2:
+    shellOverride: "zsh"

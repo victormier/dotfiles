@@ -27,6 +27,7 @@ apps=(
   vlc
   screenhero
   bittorrent
+  dropbox
 )
 
 brew cask install "${apps[@]}"

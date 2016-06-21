@@ -40,6 +40,7 @@ apps=(
     postgres
     heroku
     redis
+    mysql
 )
 
 brew install "${apps[@]}"

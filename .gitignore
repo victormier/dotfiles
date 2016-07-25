@@ -7,3 +7,6 @@ atom.symlink/storage
 atom.symlink/themes
 
 git/gitconfig.symlink
+
+# env variables that shouldn't be in the repo
+.env_secrets

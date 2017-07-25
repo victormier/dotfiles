@@ -41,6 +41,7 @@ apps=(
     heroku
     redis
     mysql
+    jq
 )
 
 brew install "${apps[@]}"

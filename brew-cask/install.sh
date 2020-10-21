@@ -12,22 +12,24 @@ then
 fi
 
 brew update
-brew upgrade brew-cask
+brew upgrade cask
 brew cleanup
 brew cask cleanup
 
 # Install packages
 
 apps=(
-  google-drive
   iterm2
-  google-chrome-canary
-  virtualbox
-  vagrant
   vlc
-  screenhero
-  bittorrent
-  dropbox
+  slack
+  notion
+  spectacle
+  flux
+  grandperspective
+  ngrok
+  postman
+  spotify
+  zoomus
 )
 
 brew cask install "${apps[@]}"

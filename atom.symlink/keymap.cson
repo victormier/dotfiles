@@ -22,3 +22,6 @@
 
 'atom-text-editor:not([mini])':
   'ctrl-shift-G': 'emmet:merge-lines'
+
+'atom-text-editor':
+  'alt-cmd-l': 'atom-notes:toggle'

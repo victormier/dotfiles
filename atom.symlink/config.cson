@@ -1,33 +1,36 @@
 "*":
-  "exception-reporting":
-    userId: "89f8dc4e-93de-fd53-ff9c-5d5fd94bca01"
-  "release-notes":
-    viewedVersion: "0.59.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "8588ddec5c35029d556b88449580eef038699a7d"
-  editor:
-    invisibles: {}
-    fontSize: 15
+  "atom-notes":
+    directory: "/Users/victor/Google Drive/notes"
   core:
-    themes: [
-      "atom-light-ui"
-      "base16-tomorrow-light-theme"
-    ]
     ignoredNames: [
       ".git"
       ".svn"
       ".DS_Store"
     ]
-  "notational-velocity":
-    directory: "/Users/victor/notes"
-  react: {}
-  nvatom:
-    directory: "/Users/victor/GDrive/notes"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-light-ui"
+      "base16-tomorrow-light-theme"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
   emmet: {}
-  "status-bar": {}
+  "exception-reporting":
+    userId: "89f8dc4e-93de-fd53-ff9c-5d5fd94bca01"
   "highlight-line":
     enableBackgroundColor: false
+  metrics:
+    userId: "8588ddec5c35029d556b88449580eef038699a7d"
+  "notational-velocity":
+    directory: "/Users/victor/notes"
+  nvatom:
+    directory: "/Users/victor/GDrive/notes"
+  react: {}
+  "release-notes":
+    viewedVersion: "0.59.0"
+  "status-bar": {}
   term2:
     shellOverride: "zsh"
+  welcome:
+    showOnStartup: false

@@ -24,6 +24,7 @@ fi
 
 brew update
 brew upgrade
+brew tap heroku/brew
 
 # Install packages
 
@@ -41,6 +42,7 @@ apps=(
     heroku
     redis
     mysql
+    rbenv
     jq
 )
 

@@ -44,6 +44,8 @@ apps=(
     mysql
     rbenv
     jq
+    kubectl
+    kubectx
 )
 
 brew install "${apps[@]}"

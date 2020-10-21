@@ -20,6 +20,8 @@
     userId: "89f8dc4e-93de-fd53-ff9c-5d5fd94bca01"
   "highlight-line":
     enableBackgroundColor: false
+  "markdown-preview":
+    useGitHubStyle: true
   metrics:
     userId: "8588ddec5c35029d556b88449580eef038699a7d"
   "notational-velocity":

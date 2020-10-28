@@ -38,4 +38,7 @@ do
   source $file
 done
 
+# fix problem with enter producing ^M
+stty icrnl
+
 unset config_files

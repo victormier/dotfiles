@@ -50,4 +50,7 @@ apps=(
 
 brew install "${apps[@]}"
 
+# create postgres role
+/usr/local/opt/postgres/bin/createuser -s postgres
+
 exit 0

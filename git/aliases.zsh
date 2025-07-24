@@ -15,7 +15,8 @@ alias ga="git add"
 alias gc='git commit'
 alias gca='git commit -a'
 alias gco='git checkout'
-alias gcb='git copy-branch-name'
+alias gcb='git checkout $(git for-each-ref --sort=-committerdate --format="%(refname:short)" refs/heads | fzf)'
+alias gcpb='git copy-branch-name'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
-alias gfr="git push origin develop master --follow-tags"
+alias gfr="git push origin develop main --follow-tags"

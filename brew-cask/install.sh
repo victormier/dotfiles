@@ -24,12 +24,13 @@ apps=(
   slack
   notion
   spectacle
-  flux
   grandperspective
   ngrok
   postman
   spotify
-  zoomus
+  cursor
+  obsidian
+  1password
 )
 
 brew cask install "${apps[@]}"
